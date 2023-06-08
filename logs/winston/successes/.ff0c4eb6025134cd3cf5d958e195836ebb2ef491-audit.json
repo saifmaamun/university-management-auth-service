@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\successes\\.ff0c4eb6025134cd3cf5d958e195836ebb2ef491-audit.json",
+    "files": [
+        {
+            "date": 1686195017255,
+            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\successes\\success-2023-06-08-09.log",
+            "hash": "6ae411dc2faf8054323b9d97844f4345d4a1440b56b3e0e0c00e8105e67e3e99"
+        }
+    ],
+    "hashType": "sha256"
+}
