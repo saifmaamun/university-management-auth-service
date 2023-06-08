@@ -1,0 +1,18 @@
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'error connecting The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\node_modules\\mongoose\\lib\\connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\node_modules\\mongoose\\lib\\connection.js:742:29)\n' +
+    '    at Mongoose.connect (C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\node_modules\\mongoose\\lib\\index.js:406:15)\n' +
+    '    at C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\src\\server.ts:8:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\src\\server.ts:4:12)\n' +
+    '    at server (C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\src\\server.ts:20:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\src\\server.ts:20:1)',
+  label: 'right meow!',
+  timestamp: '2023-06-08T03:05:43.322Z'
+}

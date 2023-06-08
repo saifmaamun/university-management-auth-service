@@ -1,0 +1,28 @@
+2023-06-08T03:01:18.133Z [right meow!] info: connected to MongoDB
+2023-06-08T03:01:18.138Z [right meow!] info: Application listening on port 5000
+2023-06-08T03:01:51.642Z [right meow!] info: connected to MongoDB
+2023-06-08T03:01:51.647Z [right meow!] info: Application listening on port 5000
+Thu Jun 08 2023 [right meow!] info: connected to MongoDB
+Thu Jun 08 2023 [right meow!] info: Application listening on port 5000
+Thu Jun 08 2023 9 3 11 [right meow!] info: connected to MongoDB
+Thu Jun 08 2023 9 3 11 [right meow!] info: Application listening on port 5000
+Thu Jun 08 2023 9: 3: 35 [right meow!] info: connected to MongoDB
+Thu Jun 08 2023 9: 3: 35 [right meow!] info: Application listening on port 5000
+Thu Jun 08 2023 9 :3 :50 [right meow!] info: connected to MongoDB
+Thu Jun 08 2023 9 :3 :50 [right meow!] info: Application listening on port 5000
+Thu Jun 08 2023 9:4:9 [right meow!] info: connected to MongoDB
+Thu Jun 08 2023 9:4:9 [right meow!] info: Application listening on port 5000
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-08T03:05:24.248Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-08T03:05:24.255Z'
+}
