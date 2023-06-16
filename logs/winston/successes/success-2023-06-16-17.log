@@ -362,3 +362,17 @@
   label: 'right meow!',
   timestamp: '2023-06-16T11:48:01.087Z'
 }
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T11:48:14.261Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T11:48:14.267Z'
+}
