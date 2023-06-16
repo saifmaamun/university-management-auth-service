@@ -9,7 +9,9 @@ const createUser: RequestHandler = async (
 ) => {
   try {
     const { user } = req.body;
+    // console.log(user, '12');
     const result = await UserService.createUser(user);
+    // console.log(result, '14');
     res.status(200).json({
       success: true,
       message: 'User created successfully',
