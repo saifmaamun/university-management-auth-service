@@ -1,75 +1,75 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\.3722d5de1135d90da58f7dccb2c30c34a114e73b-audit.json",
+  "files": [
+    {
+      "date": 1686195017260,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-09.log",
+      "hash": "86fe72c81dcd9154f70ae31779babb9e85404b3626dddf5463d7ff2abbab7037"
     },
-    "auditLog": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\.3722d5de1135d90da58f7dccb2c30c34a114e73b-audit.json",
-    "files": [
-        {
-            "date": 1686195017260,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-09.log",
-            "hash": "86fe72c81dcd9154f70ae31779babb9e85404b3626dddf5463d7ff2abbab7037"
-        },
-        {
-            "date": 1686203943066,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-11.log",
-            "hash": "7a95083f019dc065f71f3c2a2a36a3a2aec221265239cfd0caef888a09a02f16"
-        },
-        {
-            "date": 1686204030098,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-12.log",
-            "hash": "130c1d0a08e65ba1efd08bb31e6c579544849719c463d539d190f47cd6949fc8"
-        },
-        {
-            "date": 1686213004961,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-14.log",
-            "hash": "f2e84bfd817fbc77cf21baacb9a1c303a8c0d577b8222c0b798345c9badad7ce"
-        },
-        {
-            "date": 1686221396802,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-16.log",
-            "hash": "2798c3d7e69e0fbb0b018ac3aac387443a995ba8d4270d8ef5cd2cc942fea461"
-        },
-        {
-            "date": 1686224529632,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-17.log",
-            "hash": "8f98425e7a331ec3eb77bab3353a844cba06d0fba8ed525e78ba2fcd497013f8"
-        },
-        {
-            "date": 1686283815924,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-09-10.log",
-            "hash": "d346b558ed49b2596552afae8defec4b18e62837e7b2edd0d13316747807213f"
-        },
-        {
-            "date": 1686886119604,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-16-09.log",
-            "hash": "57d459d551ac6f21654972f18ad2fdb0108726fd6a0e31cd280537e1a118bc89"
-        },
-        {
-            "date": 1686888131969,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-16-10.log",
-            "hash": "1b6a9f40fe199539f55ce0ddd3e8bd1d8cfa7f2d4b8501a7ec9a606452cefe71"
-        },
-        {
-            "date": 1686914451787,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-16-17.log",
-            "hash": "91cb7be30e3ac7d067f0ca73473b013f3c8854cfe4fdb2850df777309acb2270"
-        },
-        {
-            "date": 1686938877261,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-17-00.log",
-            "hash": "0fec48325eea5f30102cabd5b06e6085231ce1bb5c2ce8654101e961df86b909"
-        },
-        {
-            "date": 1686942055569,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-17-01.log",
-            "hash": "7b6b2443fa98c9c83baa8ee4a17f12f759630ab24cdf9b3d47f5d83fb71991e3"
-        },
-        {
-            "date": 1686945684431,
-            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-17-02.log",
-            "hash": "4b4edd290e6d813a071b18480b8c1e6c14b68483324e1a1135118e4b8b39753f"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686203943066,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-11.log",
+      "hash": "7a95083f019dc065f71f3c2a2a36a3a2aec221265239cfd0caef888a09a02f16"
+    },
+    {
+      "date": 1686204030098,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-12.log",
+      "hash": "130c1d0a08e65ba1efd08bb31e6c579544849719c463d539d190f47cd6949fc8"
+    },
+    {
+      "date": 1686213004961,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-14.log",
+      "hash": "f2e84bfd817fbc77cf21baacb9a1c303a8c0d577b8222c0b798345c9badad7ce"
+    },
+    {
+      "date": 1686221396802,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-16.log",
+      "hash": "2798c3d7e69e0fbb0b018ac3aac387443a995ba8d4270d8ef5cd2cc942fea461"
+    },
+    {
+      "date": 1686224529632,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-08-17.log",
+      "hash": "8f98425e7a331ec3eb77bab3353a844cba06d0fba8ed525e78ba2fcd497013f8"
+    },
+    {
+      "date": 1686283815924,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-09-10.log",
+      "hash": "d346b558ed49b2596552afae8defec4b18e62837e7b2edd0d13316747807213f"
+    },
+    {
+      "date": 1686886119604,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-16-09.log",
+      "hash": "57d459d551ac6f21654972f18ad2fdb0108726fd6a0e31cd280537e1a118bc89"
+    },
+    {
+      "date": 1686888131969,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-16-10.log",
+      "hash": "1b6a9f40fe199539f55ce0ddd3e8bd1d8cfa7f2d4b8501a7ec9a606452cefe71"
+    },
+    {
+      "date": 1686914451787,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-16-17.log",
+      "hash": "91cb7be30e3ac7d067f0ca73473b013f3c8854cfe4fdb2850df777309acb2270"
+    },
+    {
+      "date": 1686938877261,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-17-00.log",
+      "hash": "0fec48325eea5f30102cabd5b06e6085231ce1bb5c2ce8654101e961df86b909"
+    },
+    {
+      "date": 1686942055569,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-17-01.log",
+      "hash": "7b6b2443fa98c9c83baa8ee4a17f12f759630ab24cdf9b3d47f5d83fb71991e3"
+    },
+    {
+      "date": 1686945684431,
+      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\errors\\error-2023-06-17-02.log",
+      "hash": "4b4edd290e6d813a071b18480b8c1e6c14b68483324e1a1135118e4b8b39753f"
+    }
+  ],
+  "hashType": "sha256"
 }
