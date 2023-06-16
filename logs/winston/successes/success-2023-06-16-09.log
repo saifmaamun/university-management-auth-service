@@ -1,0 +1,126 @@
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:28:42.678Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:28:42.684Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:30:01.600Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:30:01.605Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:34:01.634Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:34:01.640Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:43:44.965Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:43:44.971Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:45:48.104Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:45:48.110Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:46:30.813Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:46:30.820Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:47:11.341Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:47:11.347Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:59:39.166Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:59:39.173Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:59:57.433Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T03:59:57.440Z'
+}

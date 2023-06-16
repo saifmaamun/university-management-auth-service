@@ -1,7 +1,12 @@
-import { RequestHandler } from 'express';
+import { NextFunction, Request, RequestHandler, Response } from 'express';
 import { UserService } from './user.service';
+// import { z } from 'zod';
 
-const createUser: RequestHandler = async (req, res, next) => {
+const createUser: RequestHandler = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   try {
     const { user } = req.body;
     const result = await UserService.createUser(user);
@@ -10,8 +15,8 @@ const createUser: RequestHandler = async (req, res, next) => {
       message: 'User created successfully',
       data: result,
     });
-  } catch (err) {
-    next(err);
+  } catch (error) {
+    next(error);
     // res.status(400).json({
     // error: err,
     // success: false,

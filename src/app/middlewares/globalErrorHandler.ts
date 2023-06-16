@@ -4,6 +4,8 @@ import handleValidationError from '../../errors/handleValidationError';
 import config from '../../config';
 import ApiError from '../../errors/ApiErrors';
 import { errorLogger } from '../../shared/logger';
+import handleZodError from '../../errors/handleZodError';
+import { ZodError } from 'zod';
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   // eslint-disable-next-line no-unused-expressions
@@ -18,6 +20,11 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
 
   if (error?.name === 'ValidationError') {
     const simplifiedError = handleValidationError(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
+  } else if (error instanceof ZodError) {
+    const simplifiedError = handleZodError(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
