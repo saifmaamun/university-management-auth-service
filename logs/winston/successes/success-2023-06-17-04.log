@@ -96,3 +96,59 @@
   label: 'right meow!',
   timestamp: '2023-06-16T22:19:37.625Z'
 }
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T22:19:42.349Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T22:19:42.356Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T22:28:15.183Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T22:28:15.191Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T22:28:52.791Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T22:28:52.799Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T22:42:33.529Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-16T22:42:33.537Z'
+}
