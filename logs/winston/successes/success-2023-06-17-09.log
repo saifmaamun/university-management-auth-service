@@ -68,3 +68,17 @@
   label: 'right meow!',
   timestamp: '2023-06-17T03:56:04.695Z'
 }
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-17T03:56:12.011Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-17T03:56:12.018Z'
+}

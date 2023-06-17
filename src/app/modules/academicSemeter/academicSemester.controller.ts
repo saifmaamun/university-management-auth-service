@@ -3,6 +3,8 @@ import { AcademicSemesterService } from './academicSemester.service';
 import catchAsync from '../../../shared/catchAsync';
 import httpStatus from 'http-status';
 import sendResponse from '../../../shared/sendResponse';
+import pick from '../../../shared/pick';
+import { paginationFields } from '../../../constants/pagination';
 // import { z } from 'zod';
 
 const createSemester = catchAsync(
@@ -15,13 +17,39 @@ const createSemester = catchAsync(
     sendResponse(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'Academin Semester created successfully',
+      message: 'Academic Semester created successfully',
       data: result,
     });
     next();
   }
 );
 
+const getAllSemesters = catchAsync(
+  async (req: Request, res: Response, next: NextFunction) => {
+    // const paginationOptions = {
+    //   page: Number(req.query.page),
+    //   limit: Number(req.query.limit),
+    //   sortBy: req.query.sortBy,
+    //   sortOrder: req.query.sortOrder,
+    // };
+    const paginationOptions = pick(req.query, paginationFields);
+
+    console.log(paginationOptions);
+
+    // const result = await AcademicSemesterService.getAllSemesters(
+    //   paginationOptions
+    // );
+    // sendResponse(res, {
+    //   statusCode: httpStatus.OK,
+    //   success: true,
+    //   message: 'Semester retreated successfully',
+    //   data: result,
+    // });
+    // next();
+  }
+);
+
 export const AcademicSemesterController = {
   createSemester,
+  getAllSemesters,
 };
