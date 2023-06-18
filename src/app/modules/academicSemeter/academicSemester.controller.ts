@@ -55,7 +55,6 @@ const getSingleSemester = catchAsync(
       message: 'Semester retreated successfully',
       data: result,
     });
-    next();
   }
 );
 
