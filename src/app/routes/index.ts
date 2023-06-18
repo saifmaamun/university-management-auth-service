@@ -4,6 +4,7 @@ import { AcademicSemesterRoutes } from '../modules/academicSemeter/academicSemes
 
 const router = express.Router();
 
+/*
 const moduleRoutes = [
   {
     path: '/users',
@@ -20,5 +21,28 @@ moduleRoutes.forEach(route => router.use(route.path, route.route));
 router.get('/', (req, res) => {
   res.send('Hello World!');
 });
+
+*/
+
+const moduleRoutes = [
+  {
+    path: '/users',
+    route: UserRoutes,
+  },
+  {
+    path: '/academic-semesters',
+    route: AcademicSemesterRoutes,
+  },
+  // {
+  //   path: '/academic-faculties',
+  //   route: AcademicFacultyRoutes,
+  // },
+  // {
+  //   path: '/academic-departments',
+  //   route: academicDepartmentRoutes,
+  // },
+];
+
+moduleRoutes.forEach(route => router.use(route.path, route.route));
 
 export default router;
