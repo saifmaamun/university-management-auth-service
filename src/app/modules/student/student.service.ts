@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { SortOrder } from 'mongoose';
-import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 
 import httpStatus from 'http-status';
-import ApiError from '../../../errors/ApiError';
 import { studentSearchableFields } from './student.constant';
 import { IStudent, IStudentFilters } from './student.interface';
 import { Student } from './student.model';
+import { paginationHelpers } from '../../../helpers/paginationHelpers';
+import ApiError from '../../../errors/ApiErrors';
 
 const getAllStudents = async (
   filters: IStudentFilters,
