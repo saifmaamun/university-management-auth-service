@@ -1,20 +1,25 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\successes\\.71016f9525ce9e08abd0d13f528b4646aa5390b8-audit.json",
-  "files": [
-    {
-      "date": 1687066166693,
-      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\successes\\phu-2023-18-06-11-success.log",
-      "hash": "f3692457189d2c87e443a6a8d5e72aba43f5db7787d847ff9a63dbd9f91f10d3"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1687068651283,
-      "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\successes\\phu-2023-18-06-12-success.log",
-      "hash": "fe7535876d1576064c58a2123d09b124099d3a2f86bb6b76e608c1bf6bdd9d70"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\successes\\.71016f9525ce9e08abd0d13f528b4646aa5390b8-audit.json",
+    "files": [
+        {
+            "date": 1687066166693,
+            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\successes\\phu-2023-18-06-11-success.log",
+            "hash": "f3692457189d2c87e443a6a8d5e72aba43f5db7787d847ff9a63dbd9f91f10d3"
+        },
+        {
+            "date": 1687068651283,
+            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\successes\\phu-2023-18-06-12-success.log",
+            "hash": "fe7535876d1576064c58a2123d09b124099d3a2f86bb6b76e608c1bf6bdd9d70"
+        },
+        {
+            "date": 1687081511981,
+            "name": "C:\\Users\\USER\\Desktop\\work\\project\\Maamun\\tutorial\\web2.0\\noSql\\module11\\logs\\winston\\successes\\phu-2023-18-06-15-success.log",
+            "hash": "ab3e2f5851047392e36e39140f808440ba72bc354d278791e5a00e0ef3796929"
+        }
+    ],
+    "hashType": "sha256"
 }
