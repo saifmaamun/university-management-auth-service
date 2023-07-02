@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 /*
 const pick = <T extends Record<string, unknown>, k extends keyof T>(
   obj: T,
@@ -16,14 +16,14 @@ const pick = <T extends Record<string, unknown>, k extends keyof T>(
 
 export default pick;
 */
-Object.defineProperty(exports, "__esModule", { value: true });
+Object.defineProperty(exports, '__esModule', { value: true });
 const pick = (obj, keys) => {
-    const finalObj = {};
-    for (const key of keys) {
-        if (obj && Object.hasOwnProperty.call(obj, key)) {
-            finalObj[key] = obj[key];
-        }
+  const finalObj = {};
+  for (const key of keys) {
+    if (obj && Object.hasOwnProperty.call(obj, key)) {
+      finalObj[key] = obj[key];
     }
-    return finalObj;
+  }
+  return finalObj;
 };
 exports.default = pick;
