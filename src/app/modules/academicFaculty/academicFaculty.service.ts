@@ -1,4 +1,5 @@
 import { SortOrder } from 'mongoose';
+import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { academicFacultySearchableFields } from './academicFaculty.constants';
@@ -7,7 +8,6 @@ import {
   IAcademicFacultyFilters,
 } from './academicFaculty.interfaces';
 import { AcademicFaculty } from './academicFaculty.model';
-import { paginationHelpers } from '../../../helpers/paginationHelpers';
 
 const createFaculty = async (
   payload: IAcademicFaculty

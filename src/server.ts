@@ -1,46 +1,17 @@
-import mongoose from 'mongoose';
-import config from './config';
-import app from './app';
-import { logger, errorLogger } from './shared/logger';
 import { Server } from 'http';
+import mongoose from 'mongoose';
+import app from './app';
+import config from './config/index';
+import { errorlogger, logger } from './shared/logger';
 
-/*
-async function drakharis() {
-  let server: Server;
-  try {
-    await mongoose.connect(config.database_url as string);
-    // await mongoose.connect(
-    //   `mongodb+srv://university-admin:aoKZjlKfeXmYjK9T@cluster0.ogqtm.mongodb.net/university-management?retryWrites=true&w=majority`
-    // );
-    logger.info(`🛢   Database is connected successfully`);
-    server = app.listen(config.port, () => {
-      logger.info(`Application  listening on port ${config.port}`);
-    });
-  } catch (error) {
-    errorLogger.error('Failed to connect database', error);
-  }
+process.on('uncaughtException', error => {
+  errorlogger.error(error);
+  process.exit(1);
+});
 
-  process.on('unhandledRejection', error => {
-    // console.log(
-    //   'Unhandled Rejection is detected, We are closing server connection'
-    // );
-    if (server) {
-      server.close(() => {
-        errorLogger.error(error);
-        process.exit(1);
-      });
-    } else {
-      process.exit(1);
-    }
-  });
+let server: Server;
 
-  // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
-}
-
-drakharis();
-*/
 async function bootstrap() {
-  let server: Server;
   try {
     await mongoose.connect(config.database_url as string);
     logger.info(`🛢   Database is connected successfully`);
@@ -49,13 +20,13 @@ async function bootstrap() {
       logger.info(`Application  listening on port ${config.port}`);
     });
   } catch (err) {
-    errorLogger.error('Failed to connect database', err);
+    errorlogger.error('Failed to connect database', err);
   }
 
   process.on('unhandledRejection', error => {
     if (server) {
       server.close(() => {
-        errorLogger.error(error);
+        errorlogger.error(error);
         process.exit(1);
       });
     } else {
@@ -65,3 +36,10 @@ async function bootstrap() {
 }
 
 bootstrap();
+
+process.on('SIGTERM', () => {
+  logger.info('SIGTERM is received');
+  if (server) {
+    server.close();
+  }
+});
